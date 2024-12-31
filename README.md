@@ -67,12 +67,14 @@ insurance-policy-management-api
 POST /api/policies
 Content-Type: application/json
 
-{
-  "policyNumber": "POL123456",
-  "policyHolderName": "John Doe",
-  "coverageAmount": 100000,
-  "startDate": "2023-01-01"
-}
+    {
+      "id": "11",
+      "company": "APP Compnay ",
+      "policy": "Long-Term Disability Insurance Most long-term disability insurance policies categorize disabilities as own occupation or any occupation. 1 Own occupation means the insured, due to disability, is unable to perform their regular job or a similar job. Any occupation means the insured, due to disability, is unable to perform any job for which they are qualified.",
+      "issuedOn": "2024-11-30T21:00:00.000Z",
+      "expiringOn": "2024-12-02T21:00:00.000Z",
+      "status": "renew"
+    }
 ```
 
 ### Get All Policies
