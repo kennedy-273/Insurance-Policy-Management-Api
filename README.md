@@ -85,8 +85,3 @@ GET /api/policies
 ## Error Handling
 The API implements proper error handling and validation to ensure that all requests are processed correctly. In case of an error, appropriate HTTP status codes and messages will be returned.
 
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
